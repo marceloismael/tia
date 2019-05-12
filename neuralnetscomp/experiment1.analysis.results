@@ -1,0 +1,28 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 1 -D 4,5,6 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-avg -print-col-names -print-row-names -enum-col-names"
+Analysing:  Root_mean_squared_error
+Datasets:   8
+Resultsets: 1
+Confidence: 0.05 (two tailed)
+Sorted by:  False_negative_rate
+Date:       5/8/19 9:01 PM
+
+
+Dataset                   (1) car      
+---------------------------------------
+functions.MultilayerPerce (30)   0.04 |
+rules.Prism '' 1310258880 (30)   0.14 |
+trees.LMT '-I -1 -M 15 -W (30)   0.07 |
+rules.PART '-M 2 -C 0.25  (30)   0.13 |
+rules.DecisionTable '-X 1 (30)   0.32 |
+trees.RandomForest '-P 10 (30)   0.16 |
+trees.J48 '-C 0.25 -M 2'  (30)   0.17 |
+trees.RandomTree '-K 0 -M (30)   0.24 |
+---------------------------------------
+Average                          0.16 |
+---------------------------------------
+(v/ /*)                               |
+
+
+Key:
+(1) car
+
